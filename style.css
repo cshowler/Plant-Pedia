@@ -1,0 +1,214 @@
+h1 {
+    font-family: 'Prata';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 130%;
+    color:#5D4A19;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    border-style: solid none solid none;
+    padding:20px;
+    color:#5D4A19;
+    border-color:#5D4A19;
+    font-family: "Prata";
+    font-weight:300;
+
+}
+
+h3{
+    font-size:36px;
+    color:#093D11;
+    font-family:'Questrial',sans-serif;
+    font-weight:400;
+}
+
+.bodytext{
+font-family: 'Gloock', sans-serif;
+font-size:25px;
+font-weight:400px;
+color:#5D4A19;
+}
+
+.width-33 {
+    width: 33%;
+}
+
+.container {
+    width: 80%;
+}
+
+
+
+header{
+    background-color:#81B88A;
+    height: 130px;
+   
+}
+
+.logo {
+
+    font-family: 'Prata', script;
+    text-decoration: none;
+    font-size: 70px;
+    color: #FEFFF8;}
+
+    header nav menu button {
+        background-color: transparent;
+        border: none;
+        color: #FEFFF8;
+        font-size: 30px;
+        font-family: "Questrial", sans-serif;
+    }
+
+    header nav menu menu li a {
+        background-color: transparent;
+        border: none;
+        color: #FEFFF8;
+        font-size: 25px;
+        font-family: "Questrial", sans-serif;
+        text-decoration: none;
+    }
+
+
+header nav{
+    display:flex;
+    margin:auto;
+    width:90%;
+
+}
+
+nav div{
+    margin-top:20px;
+}
+    
+
+    header nav menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    margin-top:50px;
+
+    
+}
+
+header nav li {
+    list-style: none;
+}
+
+
+header nav menu button+menu {
+    position: absolute;
+    z-index: 1;
+    background-color:#81B88A;
+    padding: 25px;
+    border-radius: 5px;
+    display: none;
+    width: fit-content;
+}
+
+header nav menu li:hover>menu {
+    display: block;
+    position:fixed;
+
+}
+
+
+header nav menu li:hover button {
+    color: #5D4A19;
+}
+
+header nav menu li menu:hover button {
+    color: #5D4A19;
+}
+
+.FAQ:hover {
+    color: #5D4A19;
+}
+
+.FAQ{
+    color: #FEFFF8;
+    font-size: 30px;
+    font-family: "Questrial", sans-serif;
+}
+
+header nav menu li button:after {
+    display: inline-block;}
+
+
+body{
+    background-color:#FEFFF8;
+}
+
+div section {
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+   
+}
+
+.Welcome {  
+    display: flex;
+    justify-content: space-around;
+    width:90%;
+    margin:auto;
+    
+    }
+
+element.style{
+    display:none;
+}
+
+.section{
+    display:inline-block;
+}
+
+.footer{
+    background-color: #81B88A;
+    margin-top:100px;
+}
+
+footer nav li{
+    list-style: none;
+    margin-bottom:10px;
+}
+
+footer nav>menu {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: top;
+    
+}
+
+footer nav>menu li menu {
+    padding: 0px;
+}
+
+li{
+    font-size:25px;
+
+}
+
+a{
+    text-decoration: none;
+    color:#FEFFF8;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+.Plants div{
+    margin: 20px;
+    display:flex;
+    justify-content: space-evenly; 
+
+}
+
+p{
+    white-space:pre-line;
+    width:70%;
+}
